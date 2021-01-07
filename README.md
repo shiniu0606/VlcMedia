@@ -15,10 +15,10 @@ that are not yet available in the UE4 Master branch.
 
 ## Supported Platforms
 
-This plug-in was last built against **Unreal Engine 4.19** and tested
+This plug-in was last built against **Unreal Engine 4.26** and tested
 against the following platforms:
 
-- Linux (Ubuntu 16.04)
+- ~~Linux (Ubuntu 16.04)~~
 - ~~Mac~~
 - Windows
 
