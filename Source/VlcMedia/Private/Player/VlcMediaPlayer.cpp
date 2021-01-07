@@ -261,6 +261,12 @@ FName FVlcMediaPlayer::GetPlayerName() const
 	return PlayerName;
 }
 
+FGuid FVlcMediaPlayer::GetPlayerPluginGUID() const
+{
+	static FGuid GetPlayerPluginGUID(TEXT("VlcMedia"));
+	return GetPlayerPluginGUID;
+}
+
 
 IMediaSamples& FVlcMediaPlayer::GetSamples()
 {
